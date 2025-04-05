@@ -17,7 +17,7 @@ package openim.sdkws;
 
 import "wrapperspb/wrapperspb.proto";
 
-option go_package = "github.com/openimsdk/protocol/sdkws";
+option go_package = "github.com/coyotev-crypto/IMProtocol/sdkws";
 
 ////////////////////////////////base///////////////////////////////
 
@@ -83,6 +83,7 @@ message UserInfo {
   int64 createTime = 5;
   int32 appMangerLevel = 6;
   int32 globalRecvMsgOpt = 7;
+  int32 gender = 8;
 }
 
 message UserInfoWithEx {

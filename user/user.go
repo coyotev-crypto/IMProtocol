@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/openimsdk/protocol/util/datautil"
+	"github.com/coyotev-crypto/IMProtocol/util/datautil"
 )
 
 func (x *GetAllUserIDReq) Check() error {

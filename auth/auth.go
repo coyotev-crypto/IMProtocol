@@ -17,7 +17,7 @@ package auth
 import (
 	"errors"
 
-	"github.com/openimsdk/protocol/constant"
+	"github.com/coyotev-crypto/IMProtocol/constant"
 )
 
 func (x *GetAdminTokenReq) Check() error {
