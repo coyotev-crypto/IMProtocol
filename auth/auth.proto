@@ -15,7 +15,7 @@
 syntax = "proto3";
 package openim.auth;
 
-option go_package = "github.com/openimsdk/protocol/auth";
+option go_package = "github.com/coyotev-crypto/IMProtocol/auth";
 
 message getAdminTokenReq {
   string secret = 1;
