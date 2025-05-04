@@ -7,7 +7,7 @@
 package meeting
 
 import (
-	wrapperspb "github.com/coyotev-crypto/IMProtocol/wrapperspb"
+	wrapperspb "github.com/openimsdk/protocol/wrapperspb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
