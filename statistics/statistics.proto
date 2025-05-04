@@ -14,5 +14,5 @@
 
 syntax = "proto3";
 package openim.statistics;
-option go_package = "github.com/coyotev-crypto/IMProtocol/statistics";
+option go_package = "github.com/openimsdk/protocol/statistics";
 

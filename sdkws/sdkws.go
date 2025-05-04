@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/coyotev-crypto/IMProtocol/constant"
+	"github.com/openimsdk/protocol/constant"
 )
 
 func (x *MsgData) Check() error {
